@@ -15,7 +15,7 @@ li {
 body {
 	font-family: "돋움";
 	color: #444444;
-}
+} 
 .clear {
 	clear: both;
 }
@@ -32,6 +32,8 @@ header {
 	margin: 0 auto;
 	border: 0;
 }
+
+
 #top_logo {
 	float: left;
 }
@@ -89,11 +91,11 @@ header {
 }
 .items {
 	width: 232px;
-	/* border: solid 1px blue; */
 	margin: 30px 0 0 25px;
 	float: left;
 }
 .items li {
+	list-style:none;
 	font-family: "돋움";
 	color: #666666;
 }
@@ -198,64 +200,33 @@ footer {
 	<div class="box">
 		<h3>전체 상품</h3>
 		<p> 판매자추천순 | 최신등록순</p>
-		<div class="clear"></div>
+		<div class="clear"></div> <!-- 앞의 float 속성 무시 -->
 
 		<ul class="items">
-			<li><img src="img/image1.png"></li>
+			<li><img src="img/fur1.jpg"></li>
+			<li class="a">가구1</li>
+			<li class="b">10000원 </li>
+			<li class="c">&quot;가구1 입니다</li>
+			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
+		</ul>
+		
+		<ul class="items">
+			<li><img src="img/fur2.jpg"></li>
+			<li class="a">가구1</li>
+			<li class="b">10000원 </li>
+			<li class="c">&quot;가구1 입니다</li>
+			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
+		</ul>
+		
+		<ul class="items">
+			<li><img src="img/logo.png"></li>
 			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
 			<li class="b">9,880원 <span>24%</span></li>
 			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
 			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
 		</ul>
-		<ul class="items">
-			<li><img src="img/image1.png"></li>
-			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
-			<li class="b">9,880원 <span>24%</span></li>
-			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
-			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
-		</ul>
-		<ul class="items">
-			<li><img src="img/image1.png"></li>
-			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
-			<li class="b">9,880원 <span>24%</span></li>
-			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
-			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
-		</ul>
-		<ul class="items">
-			<li><img src="img/image1.png"></li>
-			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
-			<li class="b">9,880원 <span>24%</span></li>
-			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
-			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
-		</ul>
-		<ul class="items">
-			<li><img src="img/image1.png"></li>
-			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
-			<li class="b">9,880원 <span>24%</span></li>
-			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
-			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
-		</ul>
-		<ul class="items">
-			<li><img src="img/image1.png"></li>
-			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
-			<li class="b">9,880원 <span>24%</span></li>
-			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
-			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
-		</ul>
-		<ul class="items">
-			<li><img src="img/image1.png"></li>
-			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
-			<li class="b">9,880원 <span>24%</span></li>
-			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
-			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
-		</ul>
-		<ul class="items">
-			<li><img src="img/image1.png"></li>
-			<li class="a">네온 컬러 루즈핏 티셔츠 1+1(6 컬...</li>
-			<li class="b">9,880원 <span>24%</span></li>
-			<li class="c">&quot;핵인싸로 만들어줄 네온 컬러 티셔츠&quot; 이번 여름 유행하는 핫한 네온컬러 박스티에요. ...</li>
-			<li class="d">리뷰 <span>2</span> 평점 · <span>4.5/5</span></li>
-		</ul>					
+		
+					
 	</div>
 
 	<div class="clear"></div>
@@ -275,21 +246,8 @@ footer {
 			<li>전화 1234-1234 </li>
 			</ul>
 		</div>
-		<div class="footers">
-			<h3>고객센터</h3>
-			<ul>
-			<li>경기도 용인시 수지구 정평로 12345</li>
-			<li>전화 1234-1234</li>
-			<li><span>1:1 문의 바로가기</span></li>
-			</ul>
-		</div>
-		<div class="footers">
-			<h3>전자금융거래 분쟁처리</h3>
-			<ul>
-			<li>전화 1234-1234</li>
-			<li><span>1:1 문의 바로가기</span></li>
-			</ul>
-		</div>
+		
+		
 
 	</div>
 </footer>
